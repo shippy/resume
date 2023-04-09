@@ -1,0 +1,208 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Šimon Podhajský",
+    "label": "Data Everything",
+    "picture": "https://en.gravatar.com/userimage/52298189/1aeb131ad584299c650757a8314a4e11.jpeg",
+    "image": "https://en.gravatar.com/userimage/52298189/1aeb131ad584299c650757a8314a4e11.jpeg",
+    "email": "simon@podhajsky.net",
+    "phone": "+420 732 215 370",
+    "url": "http://simon.podhajsky.net",
+    "summary": "Data generalist quashing problems with data science and the modern data stack. Formerly a data scientist in a leading neuroscience/machine learning lab and a data lead at an insurtech startup.",
+    "location": {
+      "city": "Prague",
+      "countryCode": "CZ"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "sim_pod",
+        "url": "https://twitter.com/sim_pod"
+      },
+      {
+        "network": "Linkedin",
+        "username": "simonpodhajsky",
+        "url": "https://linkedin.com/in/simonpodhajsky"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nano Energies DES",
+      "company": "Nano Energies DES",
+      "location": "Prague, CZ",
+      "description": "Flexibility aggregation to make renewable energy tractable",
+      "position": "Analyst",
+      "url": "https://nanoenergies.eu",
+      "startDate": "2023-02-20",
+      "summary": "Use data science and data engineering on the Development Analytics team to further the mission of grid flexibility aggregation.",
+      "highlights": [
+        "Use mixed-integer programming to optimize the device distribution for regulation energy bids.",
+        "Develop a data quality assurance strategy for the company-wide data warehouse."
+      ]
+    },
+    {
+      "name": "iLife Technologies",
+      "company": "iLife Technologies",
+      "location": "Sunnyvale, CA",
+      "description": "Secondary analytics for an insurtech startup",
+      "position": "Data Lead",
+      "url": "https://ilife.tech",
+      "startDate": "2021-10-01",
+      "endDate": "2022-10-01",
+      "summary": "Create an analytics platform for a B2B2C SaaS startup.",
+      "highlights": [
+        "Lead a data team to provide operational analytics, quantitative insights, and business intelligence.",
+        "Design an event-tracking plan and an enterprise data warehouse to answer critical analytics questions.",
+        "Research, select, and deploy the data stack for business needs (Segment, dbt, Hex, Metabase, Hightouch).",
+        "Model the transformation of production data to a Kimball-style data warehouse using dbt/SQL.",
+        "Oversee an XGBoost implementation to model customer churn. Implement growth accounting."
+      ]
+    },
+    {
+      "name": "SRI International / CNS Lab",
+      "company": "SRI International / CNS Lab",
+      "location": "Menlo Park, CA",
+      "description": "Neuroscience and machine learning",
+      "position": "Data Scientist",
+      "url": "https://cnslab.stanford.edu",
+      "startDate": "2018-06-01",
+      "endDate": "2022-04-01",
+      "summary": "Use machine learning to understand the brain.",
+      "highlights": [
+        "Design and implement an Airflow-based, Docker-using, Kubernetes-ready ETL system for processing incoming neuroimaging data. Architect and implement a Jupyter-based pipeline for porting twenty years' worth of data from a MS Access database to a longitudinal REDCap project.",
+        "Dispatch dataset generation, curation, and analysis requests supporting the lab's grant applications and underpinning 10+ published papers. Develop new or implement existing logic for feature extraction from raw behavioral data.",
+        "Debug, develop, and otherwise maintain Scalable Informatics for Biomedical Imaging Studies (SIBIS), a Python-based platform for uniform processing and data sharing of clinical neuroimaging datasets. Track any changes in Git and SVN and document functionality in a MediaWiki instance."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Czech Debate Association",
+      "position": "Coach, Judge, Board Member",
+      "url": "http://coderdojo.example.com/",
+      "startDate": "2012-01-01",
+      "summary": "Educational association furthering the reasoning skills of high schoolers.",
+      "highlights": [
+        "Coached the winning Team Czech Republic at the International Public Policy Forum 2012."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Yale University",
+      "url": "https://www.yale.edu/",
+      "area": "Cognitive Science",
+      "studyType": "B.S.",
+      "startDate": "2011-09-01",
+      "endDate": "2015-12-15",
+      "score": "3.29",
+      "courses": [
+        "Artificial Intelligence",
+        "Computational Vision",
+        "Language & Computation",
+        "Data Structures & Programming Techniques",
+        "Computational Models & Social Interaction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "CBIT-CORE Data Marathon Track 2015 Grand Prize",
+      "date": "2015-03-01",
+      "awarder": "CBIT-CORE",
+      "summary": "Develop a Shiny front-end for an ML algorithm predicting hospital readmission based on medical histories."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Risk for depression tripled during the COVID-19 pandemic in emerging adults followed for the last 8 years",
+      "publisher": "Psychological medicine",
+      "releaseDate": "2021-11-02",
+      "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/abs/risk-for-depression-tripled-during-the-covid19-pandemic-in-emerging-adults-followed-for-the-last-8-years/FC566C3F123A9F0B9D296BEB70F9C3F4",
+      "summary": "A mixed-effects analysis of the NCANDA cohort that revealed a sharp increase in depression risk during the pandemic."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Analysis: Languages",
+      "keywords": [
+        "Python",
+        "R",
+        "SQL",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Data Analysis: Tools",
+      "keywords": [
+        "tidyverse",
+        "Grammar of Graphics (ggplot2)",
+        "pandas",
+        "Jupyter/Hex",
+        "conda",
+        "Slurm",
+        "Excel"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "Airflow",
+        "dbt",
+        "Ansible",
+        "AWS",
+        "git",
+        "tmux",
+        "zsh/bash",
+        "vim"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    
+    {
+      "language": "Czech",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German",
+      "fluency": "B2"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ADK Wrapped",
+      "description": "A 'Spotify Wrapped' clone for high-school debaters based on their debating stats",
+      "highlights": [
+        "Using a client-server architecture to present the data in a web app",
+        "Using ChatGPT to drive development of elements of the webapp I was less familiar with"
+      ],
+      "keywords": [
+        "React",
+        "FastAPI",
+        "dbt",
+        "SQL",
+        "DuckDB"
+      ],
+      "startDate": "2023-02-01",
+      "endDate": "2023-04-24",
+      "url": "https://adk-wrapped.fly.dev",
+      "roles": [
+        "Team lead"
+      ],
+      "entity": "Czech Debate Association",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
