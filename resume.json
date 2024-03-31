@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Šimon Podhajský",
-    "label": "Data Everything",
+    "label": "Senior Data/LLM Generalist",
     "picture": "https://en.gravatar.com/userimage/52298189/1aeb131ad584299c650757a8314a4e11.jpeg",
     "image": "https://en.gravatar.com/userimage/52298189/1aeb131ad584299c650757a8314a4e11.jpeg",
     "email": "simon@podhajsky.net",
     "phone": "+420 732 215 370",
     "url": "http://simon.podhajsky.net",
-    "summary": "Data generalist quashing problems with data science and the modern data stack. Formerly a data scientist in a leading neuroscience/machine learning lab and a data lead at an insurtech startup.",
+    "summary": "Data and LLM generalist quashing problems with AI, data science and the modern data stack. Formerly a data scientist in a leading neuroscience/ML lab and a data lead at an insurtech startup.",
     "location": {
       "city": "Prague",
       "countryCode": "CZ"
@@ -28,6 +28,21 @@
   },
   "work": [
     {
+      "name": "Pure Storage",
+      "company": "Pure Storage",
+      "location": "Prague, CZ",
+      "description": "Creating a data platform and enabling a more effective and efficient data science",
+      "position": "Senior Data Engineer",
+      "url": "https://purestorage.com",
+      "startDate": "2024-02-01",
+      "summary": "Develop a data platform and LLM-based enablements for the company's data science and analytics teams.",
+      "highlights": [
+        "Create Octillion Signature Maker, a 'custom GPT' (and later Autogen-based API script) that uses LLM to generate regexes and JSON output within a tightly constrained system",
+        "Participate in developing a data platform for the company's data science and analytics teams, using dbt, Terraform, AWS SageMaker, and other tools",
+        "Plan a data discovery system based on the semantic layer of the data platform, using dbt and LLMs / Retrieval-Augmented Generation (RAG) to generate SQL queries for stakeholders"
+      ]
+    },
+    {
       "name": "Nano Energies DES",
       "company": "Nano Energies DES",
       "location": "Prague, CZ",
@@ -35,10 +50,12 @@
       "position": "Analyst",
       "url": "https://nanoenergies.eu",
       "startDate": "2023-02-20",
+      "endDate": "2023-10-31",
       "summary": "Use data science and data engineering on the Development Analytics team to further the mission of grid flexibility aggregation.",
       "highlights": [
         "Use mixed-integer programming to optimize the device distribution for regulation energy bids.",
-        "Develop a data quality assurance strategy for the company-wide data warehouse."
+        "Drove efforts to document & validate the production APIs with Sphinx and Pydantic.",
+        "Co-designed a data warehouse structure to simultaneously facilitate C-level historical reporting, exploratory analysis, and ML training & development."
       ]
     },
     {
@@ -84,7 +101,8 @@
       "startDate": "2012-01-01",
       "summary": "Educational association furthering the reasoning skills of high schoolers.",
       "highlights": [
-        "Coached the winning Team Czech Republic at the International Public Policy Forum 2012."
+        "Coached the winning Team Czech Republic at the International Public Policy Forum 2012.",
+        "Developed a strategy for the Czech Debate Association to increase its membership and better serve its members."
       ]
     }
   ],
@@ -129,8 +147,7 @@
       "keywords": [
         "Python",
         "R",
-        "SQL",
-        "MATLAB"
+        "SQL"
       ]
     },
     {
@@ -142,7 +159,9 @@
         "Jupyter/Hex",
         "conda",
         "Slurm",
-        "Excel"
+        "Excel",
+        "Postgres",
+        "Snowflake"
       ]
     },
     {
@@ -152,6 +171,7 @@
         "Airflow",
         "dbt",
         "Ansible",
+        "Terraform",
         "AWS",
         "git",
         "tmux",
@@ -177,6 +197,30 @@
   ],
   "projects": [
     {
+      "name": "JournalArticle.chat",
+      "description": "A chatbot that helps researchers converse with the papers they upload",
+      "highlights": [
+        "Use OpenAI API to generate embeddings and then responses as part of Retrieval-Augmented Generation (RAG)",
+        "Create a chatbot UI on top of RAG to help researchers converse with the papers they upload"
+      ],
+      "keywords": [
+        "Vue.js",
+        "LLM",
+        "pgvector",
+        "FastAPI",
+        "Terraform",
+        "OpenAI",
+        "Langchain"
+      ],
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "roles": [
+        "Creator",
+        "Full-Stack Developer"
+      ],
+      "type": "application"
+    },
+    {
       "name": "ADK Wrapped",
       "description": "A 'Spotify Wrapped' clone for high-school debaters based on their debating stats",
       "highlights": [
@@ -194,7 +238,8 @@
       "endDate": "2023-04-24",
       "url": "https://adk-wrapped.fly.dev",
       "roles": [
-        "Team lead"
+        "Team Lead",
+        "Full-Stack Developer"
       ],
       "entity": "Czech Debate Association",
       "type": "application"
