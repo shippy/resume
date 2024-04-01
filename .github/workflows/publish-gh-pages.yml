@@ -5,6 +5,9 @@ on:
       - master
       - main
 
+permissions:
+  contents: write
+      
 jobs:
   publish_resume:
     runs-on: ubuntu-latest
