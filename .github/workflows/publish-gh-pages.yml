@@ -18,7 +18,7 @@ jobs:
         run: npm install
 
       - name: Build the resume
-        run: ./node_modules/.bin/resume export public/index.html --theme caffeine
+        run: ./node_modules/.bin/resume export public/index.html --resume resume.json --theme caffeine
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
