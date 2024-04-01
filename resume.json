@@ -8,7 +8,7 @@
     "email": "simon@podhajsky.net",
     "phone": "+420 732 215 370",
     "url": "http://simon.podhajsky.net",
-    "summary": "Data and LLM generalist quashing problems with AI, data science and the modern data stack. Formerly a data scientist in a leading neuroscience/ML lab and a data lead at an insurtech startup.",
+    "summary": "Data and LLM generalist quashing problems with AI, data science and the modern data stack. Formerly a data generalist at a grid flexibility aggregator, data scientist in a leading neuroscience/ML lab and a data lead at an insurtech startup.",
     "location": {
       "city": "Prague",
       "countryCode": "CZ"
@@ -20,7 +20,7 @@
         "url": "https://twitter.com/sim_pod"
       },
       {
-        "network": "Linkedin",
+        "network": "LinkedIn",
         "username": "simonpodhajsky",
         "url": "https://linkedin.com/in/simonpodhajsky"
       }
@@ -37,7 +37,7 @@
       "startDate": "2024-02-01",
       "summary": "Develop a data platform and LLM-based enablements for the company's data science and analytics teams.",
       "highlights": [
-        "Create Octillion Signature Maker, a ChatGPT Enterprise 'custom GPT' (and later Autogen-based API) that uses LLM to generate regexes and JSON output within a tightly constrained system",
+        "Create Octillion Signature Maker, an Autogen-/Langchain-based API (initially prototyped as a ChatGPT 'custom GPT') that uses LLM to generate regexes and JSON output within a tightly constrained system",
         "Participate in developing a data platform for the company's data science and analytics teams, using dbt, Terraform, AWS SageMaker, and other tools",
         "Plan a data discovery system based on the semantic layer of the data platform, using dbt and LLMs / Retrieval-Augmented Generation (RAG) to generate SQL queries for stakeholders"
       ]
@@ -54,8 +54,8 @@
       "summary": "Use data science and data engineering on the Development Analytics team to further the mission of grid flexibility aggregation.",
       "highlights": [
         "Used mixed-integer programming to optimize the device distribution for regulation energy bids.",
-        "Drove efforts to document & validate the production APIs with Sphinx and Pydantic.",
-        "Co-designed a data warehouse structure to simultaneously facilitate C-level historical reporting, exploratory analysis, and ML training & development."
+        "Co-designed a data warehouse structure to simultaneously facilitate C-level historical reporting, exploratory analysis, and ML training & development.",
+        "Drove efforts to document & validate the production APIs with Sphinx and Pydantic."
       ]
     },
     {
@@ -92,8 +92,33 @@
         "Dispatch dataset generation, curation, and analysis requests supporting the lab's grant applications and underpinning 10+ published papers.",
         "Develop new or implement existing logic for feature extraction from raw behavioral data.",
         "Debug, develop, and otherwise maintain Scalable Informatics for Biomedical Imaging Studies (SIBIS), a Python-based platform for uniform processing and data sharing of clinical neuroimaging datasets.",
-        "Track any changes in Git and SVN and document functionality in a MediaWiki instance."
+        "Track any changes in Git and SVN and document functionality in a MediaWiki instance.",
+        "Worked with a team of RAs to organize and QC datasets. Mentored interns and new team members."
       ]
+    },
+    {
+      "name": "Yale University",
+      "company": "Yale Decision Neuroscience Lab",
+      "location": "New Haven, CT",
+      "position": "Postgraduate Associate",
+      "description": "Research assistantship in a neuroeconomics lab",
+      "url": "https://levydecisionlab.org",
+      "startDate": "2015-08-01",
+      "endDate": "2017-10-01",
+      "summary": "Conduct research and build data infrastructure for a leading neuroeconomics lab.",
+      "highlights": []
+    },
+    {
+      "name": "Yale University",
+      "company": "Yale IT Services",
+      "location": "New Haven, CT",
+      "position": "Software Development Team Lead",
+      "description": "Software development for Yale University",
+      "url": "https://its.yale.edu",
+      "startDate": "2013-05-01",
+      "endDate": "2015-08-31",
+      "summary": "Lead a team of developers to create software for the university using software development best practices.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -146,7 +171,7 @@
   ],
   "skills": [
     {
-      "name": "Data Analysis: Languages",
+      "name": "Programming Languages",
       "keywords": [
         "Python",
         "R",
@@ -154,21 +179,24 @@
       ]
     },
     {
-      "name": "Data Analysis: Tools",
+      "name": "Data Tools",
       "keywords": [
         "tidyverse",
         "Grammar of Graphics (ggplot2)",
         "pandas",
-        "Jupyter/Hex",
-        "conda",
+        "Jupyter",
+        "Hex",
+        "dbt",
+        "Meltano",
         "Slurm",
         "Excel",
         "Postgres",
-        "Snowflake"
+        "Snowflake",
+        "Tableau"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "DevOps Tools",
       "keywords": [
         "Docker",
         "Airflow",
@@ -186,12 +214,12 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     
     {
       "language": "Czech",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
       "language": "German",
