@@ -43,8 +43,8 @@
       ]
     },
     {
-      "name": "Nano Energies DES",
-      "company": "Nano Energies DES",
+      "name": "Nano Energies",
+      "company": "Nano Energies (Digital Energy Services)",
       "location": "Prague, CZ (hybrid)",
       "description": "Flexibility aggregation to make renewable energy tractable",
       "position": "Senior Data Generalist",
@@ -77,8 +77,8 @@
       ]
     },
     {
-      "name": "SRI International / CNS Lab",
-      "company": "SRI International / CNS Lab",
+      "name": "SRI International",
+      "company": "SRI International / Stanford CNS Lab",
       "location": "Menlo Park, CA (hybrid)",
       "description": "Data science and data engineering for a neuroscience lab",
       "position": "Data Scientist",
