@@ -3,8 +3,8 @@
   "basics": {
     "name": "Šimon Podhajský",
     "label": "Senior Data/LLM Generalist",
-    "picture": "https://en.gravatar.com/userimage/52298189/1aeb131ad584299c650757a8314a4e11.jpeg",
-    "image": "https://en.gravatar.com/userimage/52298189/1aeb131ad584299c650757a8314a4e11.jpeg",
+    "picture": "https://0.gravatar.com/avatar/2039eb283a2f870a82479a28133602671d8ed68d4d3eeb8fc2381aa59a20283e?size=512&d=initials",
+    "image": "https://0.gravatar.com/avatar/2039eb283a2f870a82479a28133602671d8ed68d4d3eeb8fc2381aa59a20283e?size=512&d=initials",
     "email": "simon@podhajsky.net",
     "phone": "+420 732 215 370",
     "url": "http://simon.podhajsky.net",
@@ -28,6 +28,22 @@
   },
   "work": [
     {
+      "name": "Waypoint AI",
+      "company": "Waypoint AI",
+      "location": "Prague, CZ",
+      "description": "AI-powered recruiting platform",
+      "position": "Lead AI/Data Engineer",
+      "url": "https://mywaypoint.ai",
+      "startDate": "2025-04-01",
+      "summary": "Spearhead and implement the company's AI and data engineering efforts.",
+      "highlights": [
+        "Develop the deep-research capabilities of Chip, the AI Customer Support Engineer.",
+        "Create regression evals.",
+        "Create convincing synthetic data sets to enable semantic retrieval/recall testing.",
+        "Perform ad-hoc data work (because first data hire at a tiny startup)."
+      ]
+    },
+    {
       "name": "Pure Storage",
       "company": "Pure Storage",
       "location": "Prague, CZ (hybrid)",
@@ -35,11 +51,14 @@
       "position": "Senior Data Engineer",
       "url": "https://purestorage.com",
       "startDate": "2024-02-01",
+      "endDate": "2025-03-31",
       "summary": "Develop a data platform and LLM-based enablements for the company's data science and analytics teams.",
       "highlights": [
-        "Create Octillion Signature Maker, an Autogen-/Langchain-based API (initially prototyped as a ChatGPT 'custom GPT') that uses LLM to generate regexes and JSON output within a tightly constrained system",
-        "Participate in developing a data platform for the company's data science and analytics teams, using dbt, Terraform, AWS (especially SageMaker), and other tools",
-        "Plan a data discovery system based on the semantic layer of the data platform, using dbt and LLMs / Retrieval-Augmented Generation (RAG) to generate SQL queries for stakeholders"
+        "Created Octillion Signature Maker, an Autogen-based API (initially prototyped as a ChatGPT 'custom GPT') that uses LLM to generate regexes and JSON output within a tightly constrained system.",
+        "Participated in developing a data platform for the company's data science and analytics teams, using dbt, Terraform, AWS (especially SageMaker), and other tools.",
+        "Planned a data discovery system based on the semantic layer of the data platform, using Retrieval-Augmented Generation (RAG) to generate metric queries for stakeholders.",
+        "Improved developer experience with devcontainers, Copier templates and other automations, saving hundreds of developer hours, as well as ~$30k/year in alternative cloud offerings.",
+        "Drafted a data literacy curriculum aimed at onboarding new hires onto the democratized data platforms."
       ]
     },
     {
@@ -227,6 +246,24 @@
     }
   ],
   "projects": [
+    {
+      "name": "Recruiter Self-Serve",
+      "url": "https://github.com/shippy/recruiter_self_serve",
+      "description": "A platform for recruiters to get my resume and cover letter customized specifically for them and their job description.",
+      "highlights": [
+        "Use PydanticAI to generate a resume and cover letter tailored to the job description."
+      ],
+      "keywords": [
+        "PydanticAI",
+        "FastAPI",
+        "Next.js"
+      ],
+      "startDate": "2024-04-01",
+      "roles": [
+        "Creator"
+      ],
+      "type": "application"
+    },
     {
       "name": "Cover Letter Automation",
       "url": "https://github.com/shippy/cover_letter_automation",
